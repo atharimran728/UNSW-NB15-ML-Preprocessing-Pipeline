@@ -1,0 +1,17 @@
+Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
+Dataset shape: (257673, 46)
+Columns: Index(['dur', 'proto', 'service', 'state', 'spkts', 'dpkts', 'sbytes',
+       'dbytes', 'rate', 'sttl'],
+      dtype='object') ...
+
+Binary distribution:
+ binary_label
+1    164673
+0     93000
+Name: count, dtype: int64
+Classes (multiclass): ['Analysis' 'Backdoor' 'DoS' 'Exploits' 'Fuzzers' 'Generic' 'Normal'
+ 'Reconnaissance' 'Shellcode' 'Worms']
+
+Train size: 180371
+Validation size: 38651
+Test size: 38651
