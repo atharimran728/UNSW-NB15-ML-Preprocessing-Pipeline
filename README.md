@@ -12,7 +12,7 @@ This repository provides a clean, reproducible preprocessing workflow for the `U
 
 ## Project Structure
 ```
-RAW_DATA/
+raw-data/
 ├── UNSW_NB15_training-set.csv
 └── UNSW_NB15_testing-set.csv
 
